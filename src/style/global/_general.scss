@@ -15,13 +15,13 @@ body {
    flex-direction: column;
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: 1000px) {
     .container {
        max-width: 96%;
     }
  }
  
- @media (max-width: $mobile-width) {
+ @media (max-width: 375px) {
     .container {
        max-width: 92%;
     }

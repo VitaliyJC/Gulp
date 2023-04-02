@@ -1,10 +1,7 @@
-@import './blocks/reset';
-@import './variables';
-@import './blocks/mixins';
-@import './blocks/fonts';
-@import './general';
-@import './blocks/header';
-@import './blocks/icons';
-@import './blocks/main';
-@import './blocks/footer';
-@import './blocks/card';
+@import 'base/*.scss';
+@import 'global/*.scss';
+@import 'blocks/*.scss';
+@import '**/_*.scss';
+@import '../components/**/*.scss';
+
+
